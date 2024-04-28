@@ -14,7 +14,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
 
   final flagsmithClient = FlagsmithClient(
-        apiKey: '6JBm2Yy8AUQsjwBru8QtCL',
+        apiKey: '', // Have to add api key from project 
        
         seeds: [
             Flag.seed('feature', enabled: true),
